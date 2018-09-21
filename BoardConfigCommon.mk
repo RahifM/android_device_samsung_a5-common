@@ -46,11 +46,11 @@ BOARD_KERNEL_CMDLINE        := console=null androidboot.hardware=qcom user_debug
 BOARD_KERNEL_BASE           := 0x80000000
 BOARD_RAMDISK_OFFSET        := 0x02000000
 BOARD_KERNEL_TAGS_OFFSET    := 0x01e00000
-BOARD_KERNEL_SEPARATED_DT   := true
+#BOARD_KERNEL_SEPARATED_DT   := true
 BOARD_KERNEL_PAGESIZE       := 2048
 TARGET_KERNEL_SOURCE        := kernel/samsung/msm8916
 TARGET_KERNEL_CONFIG        := msm8916_sec_defconfig
-BOARD_KERNEL_IMAGE_NAME := zImage
+BOARD_KERNEL_IMAGE_NAME := zImage-dtb
 
 # Toolchain
 KERNEL_TOOLCHAIN            := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.8/bin
