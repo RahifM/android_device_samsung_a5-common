@@ -89,10 +89,10 @@ PRODUCT_PACKAGES += \
     keystore.msm8916
 
 # Camera
-PRODUCT_PACKAGES += \
-    Snap \
-    libmm-qcamera \
-    camera.msm8916
+#PRODUCT_PACKAGES += \
+#    Snap \
+#    libmm-qcamera \
+#    camera.msm8916
 
 PRODUCT_PROPERTY_OVERRIDES += \
     media.stagefright.legacyencoder=true \
