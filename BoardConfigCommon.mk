@@ -39,8 +39,8 @@ TARGET_CPU_CORTEX_A53       := true
 
 # Kernel
 TARGET_KERNEL_ARCH          := arm
-BOARD_CUSTOM_BOOTIMG        := true
-BOARD_CUSTOM_BOOTIMG_MK     := hardware/samsung/mkbootimg.mk
+#BOARD_CUSTOM_BOOTIMG        := true
+#BOARD_CUSTOM_BOOTIMG_MK     := hardware/samsung/mkbootimg.mk
 BOARD_DTBTOOL_ARGS          := -2
 BOARD_KERNEL_CMDLINE        := console=null androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x3F ehci-hcd.park=3 androidboot.bootdevice=7824900.sdhci androidboot.selinux=permissive
 BOARD_KERNEL_BASE           := 0x80000000
@@ -165,7 +165,7 @@ TARGET_FORCE_HWC_FOR_VIRTUAL_DISPLAYS  := true
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 
 # SELinux
-include device/qcom/sepolicy/sepolicy.mk
+include device/qcom/sepolicy/Android.mk
 
 BOARD_SEPOLICY_DIRS += \
     device/samsung/a5-common/sepolicy

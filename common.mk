@@ -46,8 +46,8 @@ PRODUCT_COPY_FILES += \
 #    SamsungDoze
 
 # Touch issue workaround
-PRODUCT_PACKAGES += \
-    InputDisabler
+#PRODUCT_PACKAGES += \
+ #   InputDisabler
 
 # Audio
 PRODUCT_PACKAGES += \
