@@ -110,8 +110,8 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-service
 
 # LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service.samsung-qcom
+#PRODUCT_PACKAGES += \
+#    vendor.lineage.livedisplay@2.0-service.samsung-qcom
 
 # DRM
 PRODUCT_PACKAGES += \
